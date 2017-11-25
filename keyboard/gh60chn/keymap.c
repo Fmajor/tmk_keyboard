@@ -32,7 +32,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [FN_LAYER] = KEYMAP_ANSI(
         GRV, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, DEL,  \
         NO,  NO,  UP,  NO,  NO,  NO,  NO,  NO,  INS, NO,  PSCR,SLCK,PAUS,NO,   \
-        TRNS,LEFT,DOWN,RGHT,ESC, GRV, LEFT,DOWN,UP,  RGHT,BSPC,NO,       TRNS, \
+        CAPS,LEFT,DOWN,RGHT,ESC, GRV, LEFT,DOWN,UP,  RGHT,BSPC,NO,       TRNS, \
         TRNS,NO,  DEL, HOME,END, SPC, PGDN,PGUP,NO,  NO,  NO,            TRNS, \
         TRNS,TRNS,TRNS,          TRNS,                    TRNS,TRNS,TRNS,TRNS),
 };
